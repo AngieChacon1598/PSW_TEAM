@@ -9,6 +9,8 @@ Proyecto educativo que demuestra la implementación del patrón AAA (Arrange-Act
 - `Calculadora`: Operaciones matemáticas básicas
 - `Usuario`: Gestión de información de usuarios
 - `CarritoCompras`: Sistema de carrito de compras
+- `Cupon`: Validador de cupones con código fijo "VERANO2026"
+- `Streaming`: Control de acceso a películas según la edad del usuario
 
 ### Pruebas Unitarias
 - 9 pruebas unitarias en total (3 por cada clase)
@@ -41,11 +43,15 @@ npm run test:watch
 ├── src/
 │   ├── calculadora.js      # Clase Calculadora
 │   ├── usuario.js          # Clase Usuario
-│   └── carrito.js          # Clase CarritoCompras
+│   ├── carrito.js          # Clase CarritoCompras
+│   ├── cupon.js            # Clase Cupon (validador de cupones)
+│   └── streaming.js        # Clase Streaming (control de acceso)
 ├── __tests__/
 │   ├── calculadora.test.js # Pruebas de Calculadora
 │   ├── usuario.test.js     # Pruebas de Usuario
-│   └── carrito.test.js     # Pruebas de CarritoCompras
+│   ├── carrito.test.js     # Pruebas de CarritoCompras
+│   ├── cupon.test.js       # Pruebas de Cupon
+│   └── streaming.test.js   # Pruebas de Streaming
 ├── DOCUMENTACION_PATRON_AAA.md  # Documentación completa
 ├── jest.config.js          # Configuración de Jest
 └── package.json
